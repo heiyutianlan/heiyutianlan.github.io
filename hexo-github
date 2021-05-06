@@ -506,7 +506,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://heiyutianlan.github.io/2021/05/06/hexo-github/">https://heiyutianlan.github.io/2021/05/06/hexo-github/</a>
+                    <a href="https://heiyutianlan.github.io/hexo-github">https://heiyutianlan.github.io/hexo-github</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -592,7 +592,7 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2021/05/06/hexo-github/">
+                <a href="/hexo-github">
                     <div class="card-image">
                         
                         
@@ -630,7 +630,7 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/03/hello-world/">
+                <a href="/hello-world">
                     <div class="card-image">
                         
                         

@@ -519,7 +519,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://heiyutianlan.github.io/2021/05/03/hello-world/">https://heiyutianlan.github.io/2021/05/03/hello-world/</a>
+                    <a href="https://heiyutianlan.github.io/hello-world">https://heiyutianlan.github.io/hello-world</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -604,7 +604,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/05/06/hexo-github/">
+                <a href="/hexo-github">
                     <div class="card-image">
                         
                         
@@ -641,7 +641,7 @@
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/03/hello-world/">
+                <a href="/hello-world">
                     <div class="card-image">
                         
                         
