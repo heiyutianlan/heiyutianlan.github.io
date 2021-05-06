@@ -6,7 +6,7 @@
   <link href="https://heiyutianlan.github.io/atom.xml" rel="self"/>
   
   <link href="https://heiyutianlan.github.io/"/>
-  <updated>2021-05-06T05:10:41.152Z</updated>
+  <updated>2021-05-03T11:29:08.648Z</updated>
   <id>https://heiyutianlan.github.io/</id>
   
   <author>
@@ -17,22 +17,9 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo-github</title>
-    <link href="https://heiyutianlan.github.io/hexo-github"/>
-    <id>https://heiyutianlan.github.io/hexo-github</id>
-    <published>2021-05-06T03:05:22.000Z</published>
-    <updated>2021-05-06T05:10:41.152Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="https://heiyutianlan.github.io/hello-world"/>
-    <id>https://heiyutianlan.github.io/hello-world</id>
+    <link href="https://heiyutianlan.github.io/2021/05/03/hello-world/"/>
+    <id>https://heiyutianlan.github.io/2021/05/03/hello-world/</id>
     <published>2021-05-03T11:29:08.648Z</published>
     <updated>2021-05-03T11:29:08.648Z</updated>
     
