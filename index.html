@@ -394,7 +394,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getMinutes() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -455,7 +455,7 @@
         }
 
         coverSlider.carousel({
-            duration: Number('0'),
+            duration: Number('120'),
             fullWidth: true,
             indicators: 'true' === 'true',
             onCycleTo() {
