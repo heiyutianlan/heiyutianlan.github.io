@@ -6,7 +6,7 @@
   <link href="https://heiyutianlan.github.io/atom.xml" rel="self"/>
   
   <link href="https://heiyutianlan.github.io/"/>
-  <updated>2021-05-10T11:07:54.756Z</updated>
+  <updated>2021-05-03T11:29:08.648Z</updated>
   <id>https://heiyutianlan.github.io/</id>
   
   <author>
@@ -17,22 +17,9 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客搭建过程</title>
-    <link href="https://heiyutianlan.github.io/bo-ke-da-jian-guo-cheng/"/>
-    <id>https://heiyutianlan.github.io/bo-ke-da-jian-guo-cheng/</id>
-    <published>2021-05-10T11:07:54.000Z</published>
-    <updated>2021-05-10T11:07:54.756Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="https://heiyutianlan.github.io/hello-world/"/>
-    <id>https://heiyutianlan.github.io/hello-world/</id>
+    <link href="https://heiyutianlan.github.io/1/"/>
+    <id>https://heiyutianlan.github.io/1/</id>
     <published>2021-05-03T11:29:08.648Z</published>
     <updated>2021-05-03T11:29:08.648Z</updated>
     
