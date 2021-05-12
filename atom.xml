@@ -6,7 +6,7 @@
   <link href="https://heiyutianlan.github.io/atom.xml" rel="self"/>
   
   <link href="https://heiyutianlan.github.io/"/>
-  <updated>2021-05-03T11:29:08.648Z</updated>
+  <updated>2021-05-12T01:40:28.642Z</updated>
   <id>https://heiyutianlan.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客搭建</title>
+    <link href="https://heiyutianlan.github.io/2/"/>
+    <id>https://heiyutianlan.github.io/2/</id>
+    <published>2021-05-11T13:50:43.000Z</published>
+    <updated>2021-05-12T01:40:28.642Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;博客搭建的过程参考&quot;&gt;&lt;a href=&quot;#博客搭建的过程参考&quot; class=&quot;headerlink&quot; title=&quot;博客搭建的过程参考&quot;&gt;&lt;/a&gt;博客搭建的过程参考&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    <category term="hexo" scheme="https://heiyutianlan.github.io/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://heiyutianlan.github.io/tags/hexo/"/>
+    
+    <category term="matery" scheme="https://heiyutianlan.github.io/tags/matery/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

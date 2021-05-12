@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>博客搭建</title>
+      <link href="/2/"/>
+      <url>/2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="博客搭建的过程参考"><a href="#博客搭建的过程参考" class="headerlink" title="博客搭建的过程参考"></a>博客搭建的过程参考</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> matery </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/1/"/>
       <url>/1/</url>
