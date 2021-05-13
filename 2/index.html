@@ -472,14 +472,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    287
+                    575
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -520,6 +520,30 @@
 <li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/57960566/how-to-force-consistent-line-endings-in-git-commits-with-cross-platform-compatib/59644154#59644154">how-to-force-consistent-line-endings-in-git-commits-with-cross-platform-compatib</a></li>
 <li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/1598260/make-git-lf-will-be-replaced-by-crlf-warnings-go-away">make-git-lf-will-be-replaced-by-crlf-warnings-go-away</a></li>
 <li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important">lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important</a> </li>
+</ul>
+</li>
+<li><p>站点配置文件 config.yml</p>
+<ul>
+<li>URL配置<br>要加http或https<br>刚开始没注意报错 FATAL TypeError [ERR_INVALID_URL]:</li>
+<li>home page setting<br>path 根路径设置为默认值’’,修改为其他值有时在本地可以打开网址，但部署之后显示404</li>
+</ul>
+</li>
+<li><p>主题配置文件 config.yml</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  Index:</span><br><span class="line">    url: &#x2F;</span><br></pre></td></tr></table></figure>
+<p>   url也不需要配置。配置之后首页标签会出问题。或者 配置错误 </p>
+<h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3></li>
+<li><p>url的配置</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/permalinks">永久链接官方文档</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/jingbin_/article/details/80617210">可参考Jinbeen这一篇来理解</a>(也是一种方法)</li>
+<li>插件<ol>
+<li><a target="_blank" rel="noopener" href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a><br>通过算法转化标题（摘自README.md）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt; crc16 &amp; hex</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;66c8.html</span><br><span class="line">&gt; crc16 &amp; dec</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;65535.html</span><br><span class="line">&gt;</span><br><span class="line">&gt; crc32 &amp; hex</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;8ddf18fb.html</span><br><span class="line">&gt; crc32 &amp; dec</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;1690090958.html  </span><br></pre></td></tr></table></figure></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/rozbo/hexo-abbrlink2">hexo-abbrlink2</a><br>生成有序数(摘自README.md)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;1.html</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;2.html</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;3.html</span><br></pre></td></tr></table></figure>
+<ul>
+<li>hexo-abbrlink2报错start找不到，是因为配置中没有 abbrlink: 参数 之前被我注销了没有解开</li>
+</ul>
+</li>
+</ol>
+</li>
 </ul>
 </li>
 </ol>
@@ -922,7 +946,7 @@
             <br>
             
             &nbsp;<i class="fas fa-code-branch"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">362</span>&nbsp;字
+                class="white-color">650</span>&nbsp;字
             
             
             
