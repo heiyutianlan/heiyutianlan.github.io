@@ -472,7 +472,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.2k
+                    1.3k
                 </div>
                 
 
@@ -533,7 +533,7 @@
 <p>   url也不需要配置。配置之后首页标签会出问题。或者 配置错误</p>
 </li>
 </ol>
-<h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3><ol>
+<h3 id="插件-文件夹-node-modules"><a href="#插件-文件夹-node-modules" class="headerlink" title="插件(文件夹 \node_modules)"></a>插件(文件夹 \node_modules)</h3><ol>
 <li>url的配置<ul>
 <li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/permalinks">永久链接官方文档</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/jingbin_/article/details/80617210">可参考Jinbeen这一篇来理解</a>(也是一种方法)</li>
 <li>插件<ol>
@@ -541,6 +541,9 @@
 <li><a target="_blank" rel="noopener" href="https://github.com/rozbo/hexo-abbrlink2">hexo-abbrlink2</a><br>生成有序数(以下摘自README.md)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;1.html</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;2.html</span><br><span class="line">&gt; https:&#x2F;&#x2F;post.zz173.com&#x2F;posts&#x2F;3.html</span><br></pre></td></tr></table></figure>
 <ul>
 <li>hexo-abbrlink2报错start找不到，是因为配置中没有 abbrlink: 参数 之前被我注销了没有解开</li>
+<li>在没有指定时会使用默认值，一个有趣的现象，primalink值指定为：title 不加斜杠，点击文件时会显示下载</li>
+<li>在 logic.js中<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#39;use strict&#39;;</span><br><span class="line"> const key &#x3D; &#39;c-thiskeyusingbyabbrlink2&#39;;</span><br><span class="line"> function postPermalinkFilter(data) &#123;</span><br><span class="line">      if (data.abbrlink) &#123;</span><br><span class="line">           return data;</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure>
+ hexo-abbrlink2中使用的是hexo中的过滤器 psot_permalink 所以只需要修改博客中的 config.yml 中原有的  permalink 的值就好<h3 id="一些自己的调整"><a href="#一些自己的调整" class="headerlink" title="一些自己的调整"></a>一些自己的调整</h3></li>
 </ul>
 </li>
 </ol>
@@ -548,7 +551,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="一些自己的调整"><a href="#一些自己的调整" class="headerlink" title="一些自己的调整"></a>一些自己的调整</h3><ul>
+<ul>
 <li><p>在网页中可以使用f12来查看每个元素，同时进行调整，直到自己满意再修改文件</p>
 <ul>
 <li><p>图标修改</p>
@@ -998,7 +1001,7 @@
             <br>
             
             &nbsp;<i class="fas fa-code-branch"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.3k</span>&nbsp;字
+                class="white-color">1.4k</span>&nbsp;字
             
             
             
